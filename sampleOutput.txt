@@ -1,0 +1,132 @@
+
+ ===============Scenario 1 =============== 
+
+Congratulations !! Your Credit Line has been created with LIMIT =  1000  and APR =  0.35
+
+************** TRANSACTION RECEIPT **************
+Day =  1
+Amount withdrew =  500
+Your Current Credit Limit =  500
+Your Out Standing Balance =  500.0
+
+Your Total Pay Off =  514.38
+
+
+ ===============Scenario 2 =============== 
+
+Congratulations !! Your Credit Line has been created with LIMIT =  1000  and APR =  0.35
+
+************** TRANSACTION RECEIPT **************
+Day =  1
+Amount withdrew =  500
+Your Current Credit Limit =  500
+Your Out Standing Balance =  500.0
+
+************** TRANSACTION RECEIPT **************
+Day =  15
+Amount Paid =  200
+Your Out Standing Balance =  300.0
+Your Current Credit Limit =  700
+
+************** TRANSACTION RECEIPT **************
+Day =  25
+Amount withdrew =  100
+Your Current Credit Limit =  600
+Your Out Standing Balance =  400.0
+
+Your Total Pay Off =  411.99
+
+
+ ===============Edge Cases =============== 
+
+Your Total Pay Off =  411.99
+
+Your Total Pay Off =  411.99
+
+
+ =============== Other Tests =============== 
+
+Congratulations !! Your Credit Line has been created with LIMIT =  1000  and APR =  0.35
+
+************** TRANSACTION RECEIPT **************
+Day =  1
+Amount withdrew =  100
+Your Current Credit Limit =  900
+Your Out Standing Balance =  100.0
+
+************** TRANSACTION RECEIPT **************
+Day =  2
+Amount Paid =  100
+Your Out Standing Balance =  0.0
+Your Current Credit Limit =  1000
+
+No Transaction has been happened on the given day!! 
+
+************** TRANSACTION RECEIPT **************
+Day =  3
+Amount withdrew =  100
+Your Current Credit Limit =  900
+Your Out Standing Balance =  100.0
+
+************** TRANSACTION RECEIPT **************
+Day =  3
+Amount Paid =  100
+Your Out Standing Balance =  0.0
+Your Current Credit Limit =  1000
+
+************** TRANSACTION RECEIPT **************
+Day =  4
+Amount withdrew =  100
+Your Current Credit Limit =  900
+Your Out Standing Balance =  100.0
+
+************** TRANSACTION RECEIPT **************
+Day =  6
+Amount Paid =  100
+Your Out Standing Balance =  0.0
+Your Current Credit Limit =  1000
+
+************** TRANSACTION RECEIPT **************
+Day =  7
+Amount withdrew =  100
+Your Current Credit Limit =  900
+Your Out Standing Balance =  100.0
+
+************** TRANSACTION RECEIPT **************
+Day =  10
+Amount Paid =  100
+Your Out Standing Balance =  0.0
+Your Current Credit Limit =  1000
+
+ ******* The  First   3  Activities Listed *******
+
+Day =  1   Amount Withdrew =  -100
+
+Day =  2   Amount Paid =  100
+
+Day =  3   Amount Withdrew =  -100
+
+ ******* The  Last   4  Activities Listed *******
+
+Day =  10   Amount Paid =  100
+
+Day =  7   Amount Withdrew =  -100
+
+Day =  6   Amount Paid =  100
+
+Day =  4   Amount Withdrew =  -100
+
+
+
+Credit Limit on day -  4  =  900
+
+Principle Balance on day -  3  =  0.0
+
+
+
+
+************** TRANSACTION HISTORY FOR DAY =  3  **************
+
+Day =  3   Amount Paid =  100
+
+Day =  3   Amount Withdrew =  -100
